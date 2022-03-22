@@ -209,6 +209,9 @@ background-color: #fff;
 color: #661a8b;
 }
 /* profile section end */
+
+
+
 .My-skill-work{
     width: 100%;
 display: flex;
@@ -218,7 +221,7 @@ padding-top: 170px;
 padding-bottom: 300px;
 }
 .my-skill{
-margin-right: 190px;
+
 }
 .my-image2{
 
@@ -227,7 +230,7 @@ margin-right: 190px;
     width: 800px;
 }
 .my-content{
-
+margin-right: 100px;
 }
 .my-content #what{
     color: aliceblue;
@@ -428,7 +431,7 @@ margin-right: 190px;
 .des{
     position: absolute;
     top: 1200px;
-    left: 1040px;
+    left: 900px;
 }
 .des #paragraph{
     color: aliceblue;
