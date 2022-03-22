@@ -14,14 +14,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    
 }
 nav{
 
 }
 .logo{
     
-    font-family: 'Satisfy', cursive;
+    font-family: 'Lobster', cursive;
     color: rgb(179, 187, 187);
     position: relative;
     top: 4px;
@@ -81,6 +81,7 @@ align-items: center;
 .content{
 
 }
+
 #My-name{
 color: aliceblue;
 font-size: 50px;
@@ -88,6 +89,7 @@ position: relative;
 word-spacing: 3px;
 }
 #description{
+    margin-top: 15px;
 font-size: 30px;
 color: aliceblue;
 line-height: 40px;
@@ -96,7 +98,7 @@ line-height: 40px;
 .hand{
 position: absolute;
 left:700px ;
-top: 280px;
+top: 250px;
 }
 .hand img{
 width: 50px;
@@ -125,19 +127,10 @@ animation-direction: alternate;
 .social-link{
 position: relative;
 top: 30px;
-animation-name: social;
-animation-duration: 2s;
-transition: transform 1s;
+
 
 }
-@keyframes social{
-    0%{
-        transform: translatex(-400px);
-    }
-    100%{
-        transform: translatex(0px);
-    }
-}
+
 .link{
 font-size: 30px;
 margin-left: 30px;
@@ -150,9 +143,7 @@ display: inline-block;
     padding: 10px 15px;
     border-radius: 70%;  
 }
-.link:hover{
-    background-color: #171C28;
-}
+
 .animation-image{
 
 }
@@ -217,3 +208,234 @@ transition: 1s;
 background-color: #fff;
 color: #661a8b;
 }
+/* profile section end */
+.My-skill-work{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 170px;
+padding-bottom: 300px;
+}
+.my-skill{
+margin-right: 190px;
+}
+.my-image2{
+
+}
+.my-image2 img{
+    width: 800px;
+}
+.my-content{
+
+}
+.my-content #what{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 60px;
+    
+}
+.skill-content #stack{
+    color: gainsboro;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+.skill{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.skill-image1{
+
+}
+.skill-image1 img{
+    
+    width: 60px;
+    animation-name: html;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+}
+@keyframes html{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.skill-image2{
+
+}
+.skill-image2 img{
+    width: 60px;
+    animation-name:css;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 1.3s;
+    animation-iteration-count:1;
+}
+@keyframes css{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.skill-image3{
+    
+}
+.skill-image3 img{
+    width: 60px;
+    animation-name:javascript;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 1.6s;
+    animation-iteration-count:1;
+}
+@keyframes javascript{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.skill-image4{
+    
+}
+.skill-image4 img{
+    width: 60px;
+    animation-name:sass;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 1.9s;
+    animation-iteration-count:1;
+}
+@keyframes sass{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.skill-image5{
+    
+}
+.skill-image5 img{
+    width: 60px;
+    animation-name:react;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 2.2s;
+    animation-iteration-count:1;
+}
+@keyframes react{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.skill-image6{
+    
+}
+.skill-image6 img{
+    width: 60px;
+    animation-name:npm;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-iteration-count:1;
+}
+@keyframes npm{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+}
+.skill-image7{
+    
+}
+.skill-image7 img{
+    width: 60px;
+    animation-name:mongo;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 2.8s;
+    animation-iteration-count:1;
+}
+@keyframes mongo{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.skill-image8{
+    
+}
+.skill-image8 img{
+    width: 60px;
+    animation-name:node;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 3.1s;
+    animation-iteration-count:1;
+}
+@keyframes node{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.skill-image9{
+    
+}
+.skill-image9 img{
+    width: 60px;
+    animation-name:fire;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-delay: 3.4s;
+    animation-iteration-count:1;
+}
+@keyframes fire{
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.des{
+    position: absolute;
+    top: 1200px;
+    left: 1040px;
+}
+.des #paragraph{
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+
+/* skill section end */
+
