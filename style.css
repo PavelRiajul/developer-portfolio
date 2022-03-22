@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171C28;
+}
+/* Header Start */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+nav{
+
+}
+.logo{
+    
+    font-family: 'Satisfy', cursive;
+    color: rgb(179, 187, 187);
+    position: relative;
+    top: 4px;
+    left: 20px;
+
+
+}
+#pavel{
+    display:inline-block;
+   position: absolute;
+   left: 260px;
+   top: -0px;  
+}
+ul{
+display: flex;
+position: relative;
+right: 140px;
+
+}
+ul li{
+margin-left: 30px;
+list-style: none;
+}
+ul li a{
+text-decoration: none;
+color: azure;
+font-weight: 400;
+font-size: 20px;
+transition: 1s;
+}
+a:hover{
+    color: rgb(104, 98, 98);
+}
+ul li a::after{
+    content: '';
+    width:0;
+    height: 4px;
+    background-color: gainsboro;
+    display: block;
+    transition: .5s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+/* Header End */
+.profile-section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.my-image1{
+
+}
+.my-image1 img{
+    width: 500px;
+}
+.content{
+
+}
+#My-name{
+color: aliceblue;
+font-size: 50px;
+position: relative;
+word-spacing: 3px;
+}
+#description{
+font-size: 30px;
+color: aliceblue;
+line-height: 40px;
+
+}
+.hand{
+position: absolute;
+left:700px ;
+top: 280px;
+}
+.hand img{
+width: 50px;
+animation-name: hand;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+transition: transform .1s;
+transform-origin: bottom;
+animation-direction: alternate;
+}
+@keyframes hand{
+    0%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: scaleX(-30deg);
+    }
+}
+#h{
+    position: absolute;
+    left: 760px;
+    top: 310px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.social-link{
+position: relative;
+top: 30px;
+animation-name: social;
+animation-duration: 2s;
+transition: transform 1s;
+
+}
+@keyframes social{
+    0%{
+        transform: translatex(-400px);
+    }
+    100%{
+        transform: translatex(0px);
+    }
+}
+.link{
+font-size: 30px;
+margin-left: 30px;
+display: inline-block;
+
+
+}
+.link i{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 70%;  
+}
+.link:hover{
+    background-color: #171C28;
+}
+.animation-image{
+
+}
+.animation1{
+
+}
+.animation1 img{
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    animation-name: animation1;
+    animation-duration: 2s;
+    transition: transform 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes animation1{
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.animation2{
+
+}
+.animation2 img{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    animation-name: animation2;
+    animation-duration: 2s;
+    transition: transform 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animation2{
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.button1{
+position: relative;
+top: 60px;
+}
+.button{
+font-size: 20px;
+margin-left: 30px;
+background-color: #661a8b;
+color: #fff;
+padding: 15px 20px;
+border: none;
+border-radius: 10px;
+transition: 1s;
+}
+.button:hover{
+background-color: #fff;
+color: #661a8b;
+}
