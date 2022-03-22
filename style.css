@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -258,97 +259,41 @@ margin-right: 100px;
 .skill-image1 img{
     
     width: 60px;
-    animation-name: html;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count:1;
+ 
 }
-@keyframes html{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 .skill-image2{
 
 }
 .skill-image2 img{
     width: 60px;
-    animation-name:css;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 1.3s;
-    animation-iteration-count:1;
+
 }
-@keyframes css{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 
 .skill-image3{
     
 }
 .skill-image3 img{
     width: 60px;
-    animation-name:javascript;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 1.6s;
-    animation-iteration-count:1;
+
 }
-@keyframes javascript{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 
 .skill-image4{
     
 }
 .skill-image4 img{
     width: 60px;
-    animation-name:sass;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 1.9s;
-    animation-iteration-count:1;
+   
 }
-@keyframes sass{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 .skill-image5{
     
 }
 .skill-image5 img{
     width: 60px;
-    animation-name:react;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 2.2s;
-    animation-iteration-count:1;
-}
-@keyframes react{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+  
 }
 
 .skill-image6{
@@ -356,78 +301,34 @@ margin-right: 100px;
 }
 .skill-image6 img{
     width: 60px;
-    animation-name:npm;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 2.5s;
-    animation-iteration-count:1;
+ 
 }
-@keyframes npm{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
-}
+
+
 .skill-image7{
     
 }
 .skill-image7 img{
     width: 60px;
-    animation-name:mongo;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 2.8s;
-    animation-iteration-count:1;
+
 }
-@keyframes mongo{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 .skill-image8{
     
 }
 .skill-image8 img{
     width: 60px;
-    animation-name:node;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 3.1s;
-    animation-iteration-count:1;
+  
 }
-@keyframes node{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 .skill-image9{
     
 }
 .skill-image9 img{
     width: 60px;
-    animation-name:fire;
-    transition: 1s;
-    animation-duration: 2s;
-    animation-delay: 3.4s;
-    animation-iteration-count:1;
+   
 }
-@keyframes fire{
-    0%{
-        transform: translateX(1000px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 .des{
     position: absolute;
     top: 1200px;
@@ -441,4 +342,97 @@ margin-right: 100px;
 
 
 /* skill section end */
+.Proficiency{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 100px;
+}
+.progress-bar{
+color: aliceblue;
+width: 600px;
+}
+.progress-bar li{
+    margin: 20px 0;
+}
+.progress{
 
+}
+.bar{
+    background-color: aliceblue;
+    display: block;
+    height: 23px;
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+}
+.bar span{
+    height: 23px;
+    float: left;
+    background-color: #AAA5FF;
+
+}
+.Html{
+    width: 90%;
+    border-radius: 50px;
+    animation: html5 2s;
+}
+@keyframes html5 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    width: 85%;
+    border-radius: 50px;
+    animation: css3 2s;
+}
+@keyframes css3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 84%;
+    }
+}
+
+.javascript{
+    width: 40%;
+    border-radius: 50px;
+    animation: jas 2s;
+}
+@keyframes jas {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.image3{
+margin-right: 100px;
+}
+.image3 img{
+    width: 900px;
+    animation: man 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes man{
+    0%{
+        transform: translateX(20px);
+    }
+100%{
+    transform: translateX(-20px);
+}
+}
+#prof{
+    font-weight: 1;
+    line-height: 90px;
+    font-size: 60px;
+}
+h3{
+    font-weight: 400;
+}
