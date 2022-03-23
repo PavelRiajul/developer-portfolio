@@ -441,18 +441,19 @@ h3{
 
 /* Education start */
 .Education{
+    margin-left: 200px;
     margin-top: 130px;
 display: flex;
 align-items: center;
 position: relative;
-left: 150px;
+
 padding-bottom: 100px;
-animation: edu 3s;
+animation: edu 4s;
 
 }
 @keyframes edu{
     0%{
-        transform: translateX(-600px);
+        transform: translateX(-500px);
     }
     100%{
         transform: translateX(0px);
@@ -471,6 +472,7 @@ animation: edu 3s;
 .log3{
 margin-right: 20px;
 }
+
 .log3 img{
     width: 100px;
     background-color: #f9f7fa;
@@ -501,15 +503,16 @@ color: gray;
 margin-left: 30px;
 }
 hr{
+    margin-top: 20px;
+    transition: 2s;
+     animation: break 1s;
+    width: 900px;
 
-width: 1000px;
-    position: relative;
-    top: 20px;
-    transition: 1s;
-    size: 60px;
-display: block;
-animation: break 1s;
-  
+}
+hr:hover{
+    width: 800px;
+   
+    
 }
 @keyframes break{
     0%{
@@ -519,7 +522,117 @@ animation: break 1s;
         transform: translateX(0px);
     }
 }
-hr:hover{
-    width: 1400px;
+
+/* Education section complet */
+/* portfolio section start */
+.portfolio-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 180px;
+    position: relative;
     
 }
+#hhh{
+    position: absolute;
+    top: -150px;
+
+    color: #f9f7fa;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.portgolio-image{
+    
+    position: relative;
+   
+    align-items: flex-end;
+    transition: 4s;
+    
+}
+
+
+.portgolio-image img{
+    width: 500px;
+    margin: 0 20px 0 20px;
+
+}
+.port{
+    background-color: #1a548b;
+    color: #f9f7fa;
+    padding: 10px 20px;border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 130px;
+    transition: 1s;
+    border: 1px solid #1a548b;
+    border-radius: 50px;
+    
+}
+.port:hover{
+    background-color: #fff;
+    color: #171C28;
+}
+.click{
+   color: #f9f7fa;
+   text-decoration: none;
+   font-weight: 600;
+    
+}
+.click:hover{
+    color: #171C28;
+}
+/* portfolio section end */
+/* contact section start */
+.contact-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 200px;
+}
+.contact-content{
+    margin-left: 100px;
+}
+#con{
+    color: #f9f7fa;
+    font-weight: 400;
+    font-size: 35px;
+    
+}
+#ccc{
+    color: #99949b;
+    line-height: 30px;
+}
+#fff{
+    color: #f9f7fa;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+}
+#distric{
+    color: #f9f7fa;
+    line-height: 40px;
+    font-weight: 400;
+}
+#sss{
+    color: #f9f7fa;
+}
+.i-image{
+margin-right: 150px;
+}
+.i-image img{
+    width: 400px;
+
+}
+.social-l{
+margin-top: 30px;
+
+
+}
+.lin{
+    margin-left: 10px;
+    margin-top: 40px;
+   
+}
+
