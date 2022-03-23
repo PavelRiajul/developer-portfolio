@@ -440,3 +440,86 @@ h3{
 
 
 /* Education start */
+.Education{
+    margin-top: 130px;
+display: flex;
+align-items: center;
+position: relative;
+left: 150px;
+padding-bottom: 100px;
+animation: edu 3s;
+
+}
+@keyframes edu{
+    0%{
+        transform: translateX(-600px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.edu-text{
+    position: absolute;
+    top: -80px;
+    font-size: 50px;
+    color: #f9f7fa;
+    font-weight: 200;
+}
+.collage-logo{
+
+}
+.log3{
+margin-right: 20px;
+}
+.log3 img{
+    width: 100px;
+    background-color: #f9f7fa;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+.edu-content{
+margin-left: 10px;
+}
+#collage-name{
+color: #f9f7fa;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+}
+#class{
+color: #f9f7fa;
+font-weight: 600;
+line-height: 30px;
+}
+#date{
+color: #c4c1c5;
+font-weight: 500;
+line-height: 40px;
+}
+li{
+color: gray;
+margin-left: 30px;
+}
+hr{
+
+width: 1000px;
+    position: relative;
+    top: 20px;
+    transition: 1s;
+    size: 60px;
+display: block;
+animation: break 1s;
+  
+}
+@keyframes break{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+hr:hover{
+    width: 1400px;
+    
+}
