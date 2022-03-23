@@ -1,74 +1,67 @@
-@media (max-width:768px) {
- 
-     
-.logo{
-margin-left: 40px;
-}
-nav ul {
+@media (max-width:568px) {
+    
+
+.logo {
+    font-family: 'Lobster', cursive;
+    color: rgb(179, 187, 187);
     position: relative;
-    left: 200px;
-}
- ul li a{
-     
- }
-.hand{
-    position:absolute;
-    right: 500px;
-    display: inline-block;
-}
-
-.my-image1 {
-    width: 100px;
-}
-.content{
-    margin-top: 50px;
-    margin-left: 30px;
-}
-#My-name{
-    font-size: 25px;
-
-}
-
-#description{
-    font-size: 22px;
-}
-/* 22222222222 */
-.my-image2{
-    
-}
-.my-content{
-    width: 500px;
-    position: relative;
-    left: 100px;
-}
-.des{
-    width: 400px;
-    position: relative;
-    right: 500px;
-
-    
-}
-.Proficiency{
-    margin-left: 900px;
-}
-.image3 img{
-    width: 900px;
-}
-.profile-section{
-   position: relative;
-   left: 500px;
-    
-}
-.portgolio-image{
-    
-}
-.portgolio-image img{
-    width: 300px;
-}
-.photo2 {
-margin-left: 400px;
-}
-#con{
+    top: 4px;
+    left: 20px;
     font-size: 20px;
 }
+ul {
+    display: flex;
+    position: relative;
+    right: 140px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.my-image1 {
+    width: 10px;
+    position: relative;
+    left: 160px;
+}
+.content {
+    margin-top: 130px;
+    margin-left: 40px;
+}
+#My-name {
+    color: aliceblue;
+    font-size: 50px;
+    position: relative;
+    word-spacing: 3px;
+    font-size: 30px;
+}
+.link{
+    margin-top: 20px;
+}
+/* 22222222 */
+.my-image2 img {
+    width: 800px;
+    width: 600px;
+    margin-left: 600px;
+}
+.des #paragraph {
+    color: aliceblue;
+    line-height: 40px;
+    font-size: 18px;
+    width: 500px;
+    position: relative;
+    right: 300px;
+}
+.image3 {
+    margin-left: 900px;
+}
+.progress {
+    position: relative;
+    left: 900px;
+}
+.Proficiency {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 150px;
+}
+
 }
