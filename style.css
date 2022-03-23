@@ -68,7 +68,11 @@ ul li a:hover::after{
     width: 100%;
 }
 /* Header End */
+/* portfolio section start */
+
+
 .profile-section{
+    width: 100%;
 display: flex;
 justify-content: space-around;
 align-items: center;
