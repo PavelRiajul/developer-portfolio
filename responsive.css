@@ -327,3 +327,63 @@ html:not(.no-js) [data-aos=fade-up] {
 
     
 }  
+@media (max-width:568px) {
+    .my-image1 {
+        width: 40%;
+        height: 100%;
+        position: relative;
+        top: 490px;
+        right: 290px;
+    }
+    .content {
+        width: 60%;
+        height: 100%;
+        margin-top: -120px;
+        position: relative;
+        left: 300px;
+        top: -100px;
+    }
+    #description {
+        margin-top: 15px;
+        font-size: 20px;
+        color: aliceblue;
+        line-height: 40px;
+    }
+    .my-content {
+        margin-right: 100px;
+        position: relative;
+        top: 200px;
+        right: 50px;
+    }
+    .my-image2 {
+        margin-left: 70px;
+        position: relative;
+        top: 500px;
+        left: 400px;
+    }
+    .image3 {
+        margin-right: 50px;
+        position: relative;
+        top: 300px;
+        right: 280px;
+    }
+    .Education {
+        margin-left: 100px;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-bottom: 100px;
+        animation: edu 4s;
+        padding-bottom: 800px;
+        position: relative;
+        top: 700px;
+    }
+    .progress {
+        width: 400px;
+        margin-left: 240px;
+        position: relative;
+        top: 700px;
+        left: 401px;
+    }
+}
