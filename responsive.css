@@ -1,66 +1,90 @@
-@media (max-width:1024px) {
-    .my-image1 {
-        position: relative;
-        left: 240px;
+@media (max-width:1400px) {
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
     }
-    #My-name {
-        color: aliceblue;
-        font-size: 50px;
-        position: relative;
-        word-spacing: 3px;
-        font-size: 35px;
-        padding-left: 20px;
+
+    .profile-section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .ttt {
+        margin-top: 250px;
+        margin-left: 0px;
     }
     #description {
         margin-top: 15px;
-        font-size: 30px;
+        font-size: 27px;
         color: aliceblue;
-        line-height: 35px;
-        font-size: 22px;
-        padding-left: 20px;
+        line-height: 40px;
     }
-    .content{
-        margin-top: 90px;
+    .link {
+        font-size: 30px;
         margin-left: 10px;
+        display: inline-block;
     }
-    .link{
-        margin-top: 20px;
+    .button {
         font-size: 15px;
+        margin-left: 30px;
+        background-color: #661a8b;
+        color: #fff;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        transition: 1s;
     }
-    .button{
-font-size: 15px;
+    .My-skill-work {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
     }
-    .hand{
-        position: relative;
-        right: 200px;
-        top: -60px;
-    }
-    .my-image2 {
-        margin-left: 230px;
-    }
-    .my-content {
-        margin-right: 100px;
-        margin-top: 120px;
+    .des #paragraph {
+        color: aliceblue;
+        line-height: 40px;
+        font-size: 13px;
     }
     .des {
         position: absolute;
-        top: 1300px;
-        left: 640px;
-        width: 800px;
+        top: 1290px;
+        left: 820px;
     }
-    .image3 {
-        margin-right: 100px;
-        width: 280px;
+    .Proficiency {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+        margin-top: 300px;
+        margin-left: 200px;
     }
     .image3 img {
-        width: 900px;
+        width: 600px;
         animation: man 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        width: 700px;
+    }
+    .image3 {
+        margin-right: 10px;
+    }
+    .progress-bar {
+        color: aliceblue;
+        width: 600px;
+        margin-right: 300px;
+    }
+    .progress {
+        width: 500px;
     }
     .Education {
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: 130px;
         display: flex;
         align-items: center;
@@ -68,173 +92,74 @@ font-size: 15px;
         padding-bottom: 100px;
         animation: edu 4s;
     }
+    .portgolio-image img {
+        width: 400px;
+        margin: 0 20px 0 20px;
+    }
     .portfolio-section {
-        display: inline-block;
+        display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 180px;
         position: relative;
-        
+        margin-left: 100px;
     }
-    .portgolio-image {
-        position: relative;
-        left: 200px;
-        align-items: flex-end;
-        transition: 4s;
-        margin-top: 50px;
-    }
-    .portgolio-image img {
-        width: 900px;
-        margin: 0 20px 0 20px;
-    }
-    #hhh {
-        position: absolute;
-        top: -150px;
-        left: 500px;
-        color: #f9f7fa;
-        font-weight: 400;
-        font-size: 70px;
+    .i-image img {
+        width: 350px;
     }
     .i-image {
-        display: inline-block;
-        position: relative;
-        left: 300px;
+        margin-right: 10px;
     }
-    
 }
-@media (max-width:370px) {
-    .my-image1 {
-        width: 40%;
+@media (max-width:1100px) {
+    .logo {
+        font-family: 'Lobster', cursive;
+        color: rgb(179, 187, 187);
         position: relative;
-        left: 300px;
-        top: -200px;
+        top: 4px;
+        left: -50px;
     }
-    .content {
-        width: 60%;
-        margin-top: 90px;
-        margin-left: 100px;
-    }
-    #My-name {
-        color: aliceblue;
-        font-size: 50px;
-        position: relative;
-        word-spacing: 3px;
-        font-size: 18px;
-        padding-left: 0px;
-    }
-    .My-skill-work {
-        width: 100%;
+    ul {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 170px;
-        padding-bottom: 300px;
-        margin-left: 100px;
+        position: relative;
+        right: -60px;
+    }
+    .image1 {
+      margin-top: 100px;
+       
+    }
+    .animation-image {
+        margin-left: 70px;
+    }
+    .my-image1 img {
+        width: 500px;
+    }
+    .animation-image {
+        display: none;
+    }
+    #description {
+        margin-top: 15px;
+        font-size: 21px;
+        color: aliceblue;
+        line-height: 40px;
+    }
+    .link {
+        font-size: 20px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .button {
+        font-size: 13px;
+        margin-left: 10px;
+        background-color: #661a8b;
+        color: #fff;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        transition: 1s;
     }
     .my-image2 {
-        margin-left: 930px;
+        margin-left: 70px;
     }
-    .des {
-        position: absolute;
-        top: 1900px;
-        left: 640px;
-        width: 800px;
-    }
-    .Proficiency {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 20px;
-        margin-left: 500px;
-        margin-top: 100px;
-    }
-    .image3 img {
-        width: 900px;
-        animation: man 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        width: 700px;
-        margin-left: 200px;
-    }
-    .i-image {
-        display: inline-block;
-        position: relative;
-        left: 500px;
-        
-    }
-}
-@media (max-width:576px) {
-    .my-image1 {
-        position: relative;
-        left: 650px;
-        top: -200px;
-        border: 1px solid red;
-        width: 50%;
-    }
-    .content {
-        margin-top: 90px;
-        margin-left: 100px;
-        border: 1px solid red;
-        width: 50%;
-    }
-    .Proficiency {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 20px;
-        margin-left: 400px;
-    }
-    .image3 img {
-        width: 900px;
-        animation: man 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        width: 700px;
-        margin-left: 200px;
-    }
-    .My-skill-work {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 170px;
-        padding-bottom: 300px;
-        margin-left: 300px;
-    }
-    .des {
-        position: absolute;
-        top: 1900px;
-        left: 690px;
-        width: 800px;
-    }
-    .i-image {
-        margin-right: 150px;
-        margin-left: 200px;
-    }
-    
-}
-@media  (max-width:600px){
-  .my-image1{
-     position: relative;
-     left: 400px;
-  }
-  .content{
-position: relative;
-
-  }
-  .ttt{
-      margin-top: 0px;
-      
-  }
-  #My-name{
-font-size: 35px;
-padding: 30px;
-  }
-  #description{
-font-size: 30px;
-display:inline;
-  }
-  .social-link{
-      display: inline;
-  }
+   
 }
