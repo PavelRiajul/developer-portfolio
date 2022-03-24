@@ -122,6 +122,15 @@ font-size: 15px;
         font-size: 18px;
         padding-left: 0px;
     }
+    .My-skill-work {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 170px;
+        padding-bottom: 300px;
+        margin-left: 100px;
+    }
     .my-image2 {
         margin-left: 930px;
     }
@@ -151,5 +160,56 @@ font-size: 15px;
         display: inline-block;
         position: relative;
         left: 500px;
+        
     }
+}
+@media (max-width:576px) {
+    .my-image1 {
+        position: relative;
+        left: 650px;
+        top: -200px;
+        border: 1px solid red;
+        width: 50%;
+    }
+    .content {
+        margin-top: 90px;
+        margin-left: 100px;
+        border: 1px solid red;
+        width: 50%;
+    }
+    .Proficiency {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+        margin-left: 400px;
+    }
+    .image3 img {
+        width: 900px;
+        animation: man 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        width: 700px;
+        margin-left: 200px;
+    }
+    .My-skill-work {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 170px;
+        padding-bottom: 300px;
+        margin-left: 300px;
+    }
+    .des {
+        position: absolute;
+        top: 1900px;
+        left: 690px;
+        width: 800px;
+    }
+    .i-image {
+        margin-right: 150px;
+        margin-left: 200px;
+    }
+    
 }
