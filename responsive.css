@@ -213,3 +213,28 @@ font-size: 15px;
     }
     
 }
+@media  (max-width:600px){
+  .my-image1{
+     position: relative;
+     left: 400px;
+  }
+  .content{
+position: relative;
+
+  }
+  .ttt{
+      margin-top: 0px;
+      
+  }
+  #My-name{
+font-size: 35px;
+padding: 30px;
+  }
+  #description{
+font-size: 30px;
+display:inline;
+  }
+  .social-link{
+      display: inline;
+  }
+}
