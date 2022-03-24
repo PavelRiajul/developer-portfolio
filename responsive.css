@@ -1,89 +1,155 @@
-@media (max-width:568px) {
+@media (max-width:1024px) {
+    .my-image1 {
+        position: relative;
+        left: 240px;
+    }
+    #My-name {
+        color: aliceblue;
+        font-size: 50px;
+        position: relative;
+        word-spacing: 3px;
+        font-size: 35px;
+        padding-left: 20px;
+    }
+    #description {
+        margin-top: 15px;
+        font-size: 30px;
+        color: aliceblue;
+        line-height: 35px;
+        font-size: 22px;
+        padding-left: 20px;
+    }
+    .content{
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+    .link{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .button{
+font-size: 15px;
+    }
+    .hand{
+        position: relative;
+        right: 200px;
+        top: -60px;
+    }
+    .my-image2 {
+        margin-left: 230px;
+    }
+    .my-content {
+        margin-right: 100px;
+        margin-top: 120px;
+    }
+    .des {
+        position: absolute;
+        top: 1300px;
+        left: 640px;
+        width: 800px;
+    }
+    .image3 {
+        margin-right: 100px;
+        width: 280px;
+    }
+    .image3 img {
+        width: 900px;
+        animation: man 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        width: 700px;
+    }
+    .Education {
+        margin-left: 70px;
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-bottom: 100px;
+        animation: edu 4s;
+    }
+    .portfolio-section {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+        position: relative;
+        
+    }
+    .portgolio-image {
+        position: relative;
+        left: 200px;
+        align-items: flex-end;
+        transition: 4s;
+        margin-top: 50px;
+    }
+    .portgolio-image img {
+        width: 900px;
+        margin: 0 20px 0 20px;
+    }
+    #hhh {
+        position: absolute;
+        top: -150px;
+        left: 500px;
+        color: #f9f7fa;
+        font-weight: 400;
+        font-size: 70px;
+    }
+    .i-image {
+        display: inline-block;
+        position: relative;
+        left: 300px;
+    }
     
-
-.logo {
-    font-family: 'Lobster', cursive;
-    color: rgb(179, 187, 187);
-    position: relative;
-    top: 4px;
-    left: 20px;
-    font-size: 20px;
 }
-ul {
-    display: flex;
-    position: relative;
-    right: 140px;
-    margin-top: 30px;
-    margin-left: 300px;
-}
-.my-image1 {
-    width: 10px;
-    position: relative;
-    left: 160px;
-}
-.content {
-    margin-top: 130px;
-    margin-left: 40px;
-}
-#My-name {
-    color: aliceblue;
-    font-size: 50px;
-    position: relative;
-    word-spacing: 3px;
-    font-size: 30px;
-}
-.link{
-    margin-top: 20px;
-}
-/* 22222222 */
-.my-image2 img {
-    width: 800px;
-    width: 600px;
-    margin-left: 600px;
-}
-.des #paragraph {
-    color: aliceblue;
-    line-height: 40px;
-    font-size: 18px;
-    width: 500px;
-    position: relative;
-    right: 300px;
-}
-.image3 {
-    margin-left: 900px;
-}
-.progress {
-    position: relative;
-    left: 900px;
-}
-.Proficiency {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 20px;
-    margin-top: 150px;
-}
-.portfolio-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 180px;
-    position: relative;
-    margin-left: 600px;
-}
-.portgolio-image {
-    position: relative;
-    align-items: flex-end;
-    transition: 4s;
-    display: block;
-}
-.i-image {
-    margin-right: 150px;
-    margin-left: 600px;
-}
-.contact-content {
-    margin-left: 100px;
-    width: 50%;
-}
-
+@media (max-width:370px) {
+    .my-image1 {
+        width: 40%;
+        position: relative;
+        left: 300px;
+        top: -200px;
+    }
+    .content {
+        width: 60%;
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    #My-name {
+        color: aliceblue;
+        font-size: 50px;
+        position: relative;
+        word-spacing: 3px;
+        font-size: 18px;
+        padding-left: 0px;
+    }
+    .my-image2 {
+        margin-left: 930px;
+    }
+    .des {
+        position: absolute;
+        top: 1900px;
+        left: 640px;
+        width: 800px;
+    }
+    .Proficiency {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+        margin-left: 500px;
+        margin-top: 100px;
+    }
+    .image3 img {
+        width: 900px;
+        animation: man 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        width: 700px;
+        margin-left: 200px;
+    }
+    .i-image {
+        display: inline-block;
+        position: relative;
+        left: 500px;
+    }
 }
